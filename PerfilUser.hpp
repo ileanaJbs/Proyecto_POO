@@ -1,7 +1,7 @@
 #ifndef PERFIL_HPP
 #define PERFIL_HPP
 
-#include "PerfilUser.hpp"
+#include "Usuario.hpp"
 #include <string>
 using namespace std;
 
