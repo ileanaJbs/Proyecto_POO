@@ -2,6 +2,8 @@
 Jocelyn Ileana Balderas Sánchez
 */
 
+#include "PlataformaStreaming.hpp"
+
 #ifndef ADMINISTRADOR_HPP
 #define ADMINISTRADOR_HPP
 
@@ -19,6 +21,7 @@ class Administrador
 
     public:
         Administrador();
+        Administrador (string, string);
         string getIdA();
         void setIdA(string);
         string getNombreA();
