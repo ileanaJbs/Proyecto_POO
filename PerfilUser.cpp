@@ -4,10 +4,12 @@
 #include <string>
 using namespace std;
 
-PerfilUser::PefilUser() : Usuario(), apodoU{"Chris"} cuentaU{3758} {}
-PefilUser::PefilUser(string apodU, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
+PerfilUser::PerfilUser() : Usuario(), apodoU{"Chris"}, cuentaU{3} {}
+PerfilUser::PerfilUser(string apodU, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
 
-string PefilUser::toString()
+/*
+string PerfilUser::toString()
 {
-    return "PefilUser (" to_string(apodoU) + "," + cuentaU + " )";
+    return "PerfilUser (" to_string(apodoU) + "," + cuentaU + " )";
 }
+*/
