@@ -1,5 +1,5 @@
-#ifndef PLATAFORMA_HPP
-#define PLATAFORMA_HPP
+#ifndef PLATAFORMASTREAMING_HPP
+#define PLATAFORMASTREAMING_HPP
 
 #include <iostream>
 #include <string>
