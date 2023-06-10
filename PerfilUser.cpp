@@ -8,5 +8,5 @@ PefilUser::PefilUser(string apodU, int cuenU) : Usuario(), apodoU{apodU}, cuenta
 
 string PefilUser::toString()
 {
-    return "PefilUser(" to_string(apodoU) + "," + cuenU + ")";
+    return "PefilUser (" to_string(apodoU) + "," + cuenU + ")";
 }
