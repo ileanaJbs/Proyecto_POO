@@ -8,16 +8,16 @@ using namespace std;
 class Usuario /*: public PlataformaStreaming*/
 {
 private:
-    // string id {""};
-    string nombre{""};
+    string idU {""};
+    string nombreU{""};
 
 public:
     Usuario();
     Usuario(string, string);
-    // void setId(string);
-    // string getId();
-    void setNombre(string);
-    string getNombre();
+    void setIdU(string);
+    string getIdU();
+    void setNombreU(string);
+    string getNombreU();
     // string toString();
 };
 #endif

@@ -12,7 +12,7 @@ private:
   string tipo;
   double duracion;
   string genero;
-  double ratitng;
+  double rating;
   //string funcionActual;
 /*
 protected: 
