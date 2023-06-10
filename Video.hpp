@@ -7,7 +7,7 @@ using namespace std;
 
 class Video { //: public Catalogo  {
 private:
-  string id;
+  int id;
   string titulo;
   string tipo;
   double duracion;
@@ -21,10 +21,10 @@ protected:
 */
 public:
   Video();
-  Video(string, string, string, double, string, double //,string 
+  Video(int, string, string, double, string, double //,string 
 );
-  void setId(string);
-  string getId();
+  void setId(int);
+  int getId();
   void setTitulo(string);
   string getTitulo();
   void setTipo(string);
@@ -35,6 +35,9 @@ public:
   string getGenero();
   void setRating(double);
   double getRating();
+  void pausar();
+  void reproducir();
+  void adelantar();
 
   virtual std::string toString();
   virtual std::string dimeFuncionActual();
