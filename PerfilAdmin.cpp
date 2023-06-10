@@ -9,5 +9,5 @@ PefilAdmin::PefilAdmin(string apodA, int cuenA) : Administrador(), apodoA{apodA}
 
 string PefilAdmin::toString()
 {
-    return "PefilAdmin (" to_string(apodoA) + "," + cuentaA + " )";
+    return "PefilAdmin (" to_string(apodoA) + "," + cuentaA + " ) ";
 }
