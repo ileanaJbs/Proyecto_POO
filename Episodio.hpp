@@ -25,6 +25,8 @@ class Episodio: public Video
         void setTemporada(int);
         string getNomEpisodio();
         void setNomEpisodio(string);
+
+        //virtuales
         void display(int i);
         void calificarVideo(double nuevoRating);
 };

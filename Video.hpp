@@ -33,12 +33,15 @@ public:
   double getDuracion();
   void setGenero(string);
   string getGenero();
-  void setRating(double);
+  //void setRating(double);
   double getRating();
   void pausar();
   void reproducir();
   void adelantar();
 
+  //virtuales
+  virtual void display();
+  virtual void calificarVideo(double nuevoRating);
   virtual std::string toString();
   virtual std::string dimeFuncionActual();
   virtual void cambiaFuncionActual(std::string);
