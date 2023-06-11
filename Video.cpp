@@ -21,6 +21,12 @@ void Video::calificarVideo(double nuevoRating){
     rating = (nuevoRating + anterior)/2 ;
 }
 
+bool Video::operator>=(double rat){
+    bool resultado;
+    resultado = rating >= rat;
+    return resultado;
+}
+
 void Video::reproducir(){
 	cout << "El video se esta reproduciendo con calidad estandar" << endl;
 }

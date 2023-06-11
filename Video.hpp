@@ -45,5 +45,6 @@ public:
   //virtual std::string toString();
   //virtual std::string dimeFuncionActual();
   //virtual void cambiaFuncionActual(std::string);
+  bool operator>= (double rat);
 };
 #endif 
