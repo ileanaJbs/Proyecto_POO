@@ -8,8 +8,11 @@ Proyecto Final
 
 #include "Video.hpp"
 
+
+
 // EJEMPLO
 
+/*
 #include <iostream>
 #include "video.h"
 #include "movie.h"
@@ -17,6 +20,7 @@ Proyecto Final
 #include "episode.h"
 #include <fstream>
 #include <vector>
+
 
 int main()
 {
@@ -255,3 +259,5 @@ int main()
         }
     } while (x != 0);
 }
+
+*/
