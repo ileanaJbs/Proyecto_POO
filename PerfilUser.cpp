@@ -1,13 +1,15 @@
 // Andrea Doce Murillo
-#include "PefilUser.hpp"
+#include "PerfilUser.hpp"
 #include <iostream>
 #include <string>
 using namespace std;
 
-PefilUser::PefilUser() : Usuario(), apodoU{"Chris"} cuentaU{3758} {}
-PefilUser::PefilUser(string apodU, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
+PerfilUser::PerfilUser() : Usuario(), apodoU{"Chris"} cuentaU{3758} {}
+PerfilUser::PerfilUser(string apodU, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
 
-string PefilUser::toString()
+/*
+string PerfilUser::toString()
 {
-    return "PefilUser (" to_string(apodoU) + "," + cuentaU + " ) ";
+    return "PerfilUser (" to_string(apodoU) + "," + cuentaU + " ) ";
 }
+*/

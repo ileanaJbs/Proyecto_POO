@@ -7,10 +7,11 @@ Jocelyn Ileana Balderas Sánchez
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-class Episodio 
+class Episodio: public Video
 {
     private:
         int temporada;
@@ -18,10 +19,16 @@ class Episodio
 
     public:
         Episodio();
+        //Episodio(string nomEp, int temp, string id, string tip, string gen, double duracion, double rat)
+        vector<string> obtenerGeneros();
         int getTemporada();
         void setTemporada(int);
         string getNomEpisodio();
         void setNomEpisodio(string);
+
+        //virtuales
+        void display(int i);
+        void calificarVideo(double nuevoRating);
 };
 
 #endif
