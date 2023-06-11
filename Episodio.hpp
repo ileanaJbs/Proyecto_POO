@@ -18,10 +18,13 @@ class Episodio
 
     public:
         Episodio();
+        //Episodio(string nomEp, int temp, string id, string tip, string gen, double duracion, double rat)
         int getTemporada();
         void setTemporada(int);
         string getNomEpisodio();
         void setNomEpisodio(string);
+        void display(int i);
+        void calificarVideo(double nuevoRating);
 };
 
 #endif
