@@ -15,6 +15,12 @@ Video::~Video(){
 
 }
 
+void Video::calificarVideo(double nuevoRating){
+    double anterior;
+    anterior = rating;
+    rating = (nuevoRating + anterior)/2 ;
+}
+
 void Video::reproducir(){
 	cout << "El video se esta reproduciendo con calidad estandar" << endl;
 }
@@ -33,7 +39,7 @@ double Video::getRating(){
 	rating = rat;
 }
 
-string Video::dimeFuncionActual(){
+string Video::display(){
 	cout << "INFORMACION VIDEO" << endl;
 	cout << "ID: " << id;
 	cout << "Titulo: " << titulo << endl;
