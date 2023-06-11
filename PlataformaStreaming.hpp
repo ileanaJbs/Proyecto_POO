@@ -1,3 +1,7 @@
+/*
+Jocelyn Ileana Balderas Sánchez
+*/
+
 #ifndef PLATAFORMASTREAMING_HPP
 #define PLATAFORMASTREAMING_HPP
 
