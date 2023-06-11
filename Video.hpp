@@ -1,3 +1,7 @@
+/*
+Jocelyn Ileana Balderas Sánchez
+*/
+
 #ifndef VIDEO_HPP
 #define VIDEO_HPP
 
