@@ -15,12 +15,6 @@ Video::Video(int id, string tit, string tip, int dur, string gen, double rat){
 	rating = rat;
 }
 
-void Video::calificarVideo(double nuevoRating){
-    double anterior;
-    anterior = rating;
-    rating = (nuevoRating + anterior)/2 ;
-}
-
 bool Video::operator>=(double rat){
     bool resultado;
     resultado = rating >= rat;
@@ -45,5 +39,12 @@ double Video::getRating(){
 	rating = rat;
 }
 
+//virtuales
 void Video::display(){
+}
+
+void Video::calificarVideo(double nuevoRating){
+    double anterior;
+    anterior = rating;
+    rating = (nuevoRating + anterior)/2 ;
 }

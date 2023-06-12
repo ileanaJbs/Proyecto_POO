@@ -18,11 +18,6 @@ private:
   string genero;
   double rating;
 
-/*
-protected: 
-   std::string funcionActual {"Ninguna"};
-   Video();
-*/
 public:
   Video();
   Video(int, string, string, int, string, double);

@@ -39,16 +39,35 @@ int Episodio::getTemporada()
     return temporada;
 }
 
-void Episodio::display(int i)
-{
-    cout << "\n- - - - Episodio " << i + 1 << " - - - -\n"<< endl;
-    cout << "Nombre del Episodio: " << nomEpisodio << endl;
-    cout << "Temporada:  " << temporada << endl;
-    Video::display();
-}
-
 void Episodio::calificarVideo(double nuevoRating)
 {
     Video::calificarVideo(nuevoRating);
     cout << "\nEl episodio: " << nomEpisodio << " de la serie " << Video::getTitle() << " cambio de calificacion a: " << Video::getRating() << "\n" << endl;
+}
+
+double Episodio::getRating()
+{
+    int rat;
+    cout << "Ingrese una calificacion para el video:";
+    cin >> rat;
+    rating = rat;
+}
+
+// virtuales
+void Episodio::calificarVideo(double nuevoRating)
+{
+    double anterior;
+    anterior = rating;
+   
+}
+void Episodio::display()
+{
+    cout << "INFORMACION VIDEO" << endl;
+    cout << "ID: " << Video::id;
+    cout << "Titulo: " << Video::titulo << endl;
+    cout << "Tipo: " << Video::tipo << endl;
+    cout << "Duracion " << Video::duracion << " minutos" << endl;
+    cout << "Genero: " << Video::genero << endl;
+    cout << "Nombre del Episodio: " << nomEpisodio << endl;
+    cout << "Temporada:  " << temporada << endl;
 }

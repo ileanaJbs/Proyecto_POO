@@ -1,4 +1,8 @@
-// Andrea Doce Murillo
+/*
+Andrea Doce Murillo
+Jocelyn Ileana Balderas Sánchez 
+*/
+
 #include "Catalogo.hpp"
 #include <iostream>
 #include <string>
