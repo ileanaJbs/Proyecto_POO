@@ -14,10 +14,10 @@ private:
   int id;
   string titulo;
   string tipo;
-  double duracion;
+  int duracion;
   string genero;
   double rating;
-  //string funcionActual;
+
 /*
 protected: 
    std::string funcionActual {"Ninguna"};
@@ -25,16 +25,15 @@ protected:
 */
 public:
   Video();
-  Video(int, string, string, double, string, double //,string 
-);
+  Video(int, string, string, int, string, double);
   void setId(int);
   int getId();
   void setTitulo(string);
   string getTitulo();
   void setTipo(string);
   string getTipo();
-  void setDuracion(double);
-  double getDuracion();
+  void setDuracion(int);
+  int getDuracion();
   void setGenero(string);
   string getGenero();
   //void setRating(double);

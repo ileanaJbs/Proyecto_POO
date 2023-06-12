@@ -1,8 +1,12 @@
-
+/*
+Jocelyn Ileana Balderas Sánchez
+*/
 
 #include "Video.hpp"
 
-Video::Video(){
+Video::Video(): id{0}, titulo{""}, tipo{""}, duracion{0}, genero{""}, rating{0}{}
+
+Video::Video(int id, string tit, string tip, int dur, string gen, double rat){
 	id = 0;
 	titulo = "";
     tipo = "";
