@@ -191,17 +191,17 @@ int main()
             {
                 for (int i = 0; i <= 4; i++)
                 {
-                    if (peliculaarr[i].getGenre() == "Romance")
+                    if (peliculaarr[i].getGenero() == "Romance")
                     {
-                        std::cout << peliculaarr[i].getName() << std::endl;
-                        if (seriesarr[i].getGenre() == "Romance")
+                        std::cout << peliculaarr[i].getTitulo() << std::endl;
+                        if (seriesarr[i].getGenero() == "Romance")
                         {
-                            std::cout << seriesarr[i].getName() << std::endl;
+                            std::cout << seriesarr[i].getTitulo() << std::endl;
                         }
                     }
-                    else if (seriesarr[i].getGenre() == "Romance")
+                    else if (seriesarr[i].getGenero() == "Romance")
                     {
-                        std::cout << seriesarr[i].getName() << std::endl;
+                        std::cout << seriesarr[i].getTitulo() << std::endl;
                     }
                 }
             }
@@ -209,17 +209,17 @@ int main()
             {
                 for (int i = 0; i <= 4; i++)
                 {
-                    if (peliculaarr[i].getGenre() == "Comedia")
+                    if (peliculaarr[i].getGenero() == "Comedia")
                     {
-                        std::cout << peliculaarr[i].getName() << std::endl;
-                        if (seriesarr[i].getGenre() == "Comedia")
+                        std::cout << peliculaarr[i].getTitulo() << std::endl;
+                        if (seriesarr[i].getGenero() == "Comedia")
                         {
-                            std::cout << seriesarr[i].getName() << std::endl;
+                            std::cout << seriesarr[i].getTitulo() << std::endl;
                         }
                     }
-                    else if (seriesarr[i].getGenre() == "Comedia")
+                    else if (seriesarr[i].getGenero() == "Comedia")
                     {
-                        std::cout << seriesarr[i].getName() << std::endl;
+                        std::cout << seriesarr[i].getTitulo() << std::endl;
                     }
                 }
             }
@@ -227,17 +227,17 @@ int main()
             {
                 for (int i = 0; i <= 4; i++)
                 {
-                    if (peliculaarr[i].getGenre() == "Accion")
+                    if (peliculaarr[i].getGenero() == "Accion")
                     {
-                        std::cout << peliculaarr[i].getName() << std::endl;
-                        if (seriesarr[i].getGenre() == "Accion")
+                        std::cout << peliculaarr[i].getTitulo() << std::endl;
+                        if (seriesarr[i].getGenero() == "Accion")
                         {
-                            std::cout << seriesarr[i].getName() << std::endl;
+                            std::cout << seriesarr[i].getTitulo() << std::endl;
                         }
                     }
-                    else if (seriesarr[i].getGenre() == "Accion")
+                    else if (seriesarr[i].getGenero() == "Accion")
                     {
-                        std::cout << seriesarr[i].getName() << std::endl;
+                        std::cout << seriesarr[i].getTitulo() << std::endl;
                     }
                 }
             }
@@ -245,17 +245,17 @@ int main()
             {
                 for (int i = 0; i <= 4; i++)
                 {
-                    if (peliculaarr[i].getGenre() == "Terror")
+                    if (peliculaarr[i].getGenero() == "Terror")
                     {
-                        std::cout << peliculaarr[i].getName() << std::endl;
-                        if (seriesarr[i].getGenre() == "Terror")
+                        std::cout << peliculaarr[i].getTitulo() << std::endl;
+                        if (seriesarr[i].getGenero() == "Terror")
                         {
-                            std::cout << seriesarr[i].getName() << std::endl;
+                            std::cout << seriesarr[i].getTitulo() << std::endl;
                         }
                     }
-                    else if (seriesarr[i].getGenre() == "Terror")
+                    else if (seriesarr[i].getGenero() == "Terror")
                     {
-                        std::cout << seriesarr[i].getName() << std::endl;
+                        std::cout << seriesarr[i].getTitulo() << std::endl;
                     }
                 }
             }
@@ -263,17 +263,17 @@ int main()
             {
                 for (int i = 0; i <= 4; i++)
                 {
-                    if (peliculaarr[i].getGenre() == "Documental")
+                    if (peliculaarr[i].getGenero() == "Documental")
                     {
-                        std::cout << peliculaarr[i].getName() << std::endl;
-                        if (seriesarr[i].getGenre() == "Documental")
+                        std::cout << peliculaarr[i].getTitulo() << std::endl;
+                        if (seriesarr[i].getGenero() == "Documental")
                         {
-                            std::cout << seriesarr[i].getName() << std::endl;
+                            std::cout << seriesarr[i].getTitulo() << std::endl;
                         }
                     }
-                    else if (seriesarr[i].getGenre() == "Documental")
+                    else if (seriesarr[i].getGenero() == "Documental")
                     {
-                        std::cout << seriesarr[i].getName() << std::endl;
+                        std::cout << seriesarr[i].getTitulo() << std::endl;
                     }
                 }
             }
@@ -283,7 +283,7 @@ int main()
             std::cout << "Ingrese el ID de la pelicula que desee calificar" << std::endl;
             for (int i = 0; i <= 4; i++)
             {
-                std::cout << peliculaarr[i].getID() << " " << peliculaarr[i].getName() << std::endl;
+                std::cout << peliculaarr[i].getID() << " " << peliculaarr[i].getTitulo() << std::endl;
             }
             int z, rate;
             std::cin >> z;
@@ -298,7 +298,7 @@ int main()
             std::cout << "Ingrese el ID de la serie que desee calificar" << std::endl;
             for (int i = 0; i <= 4; i++)
             {
-                std::cout << i << " " << seriesarr[i].getName() << std::endl;
+                std::cout << i << " " << seriesarr[i].getTitulo() << std::endl;
             }
             int z, rate;
             std::cin >> z;
