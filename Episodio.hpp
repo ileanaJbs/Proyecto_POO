@@ -5,6 +5,8 @@ Jocelyn Ileana Balderas Sánchez
 #ifndef EPISODIO_HPP
 #define EPISODIO_HPP
 
+#include "Video.hpp"
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -18,8 +20,8 @@ class Episodio: public Video
         string nomEpisodio;
 
     public:
-        Episodio();
-        //Episodio(string nomEp, int temp, string id, string tip, string gen, double duracion, double rat)
+        //Episodio();
+        Episodio(int id, string tit, string tip, int dur, string gen, double rat, string nomEp, int temp,)
         vector<string> obtenerGeneros();
         int getTemporada();
         void setTemporada(int);
