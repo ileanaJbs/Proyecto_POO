@@ -9,10 +9,7 @@ Jocelyn Ileana Balderas Sánchez
 
 using namespace std;
 
-Pelicula::Pelicula(int id, string tit, string tip, int dur, string gen, double rat, int an, string dir): Video(id, tit, tip, dur, rat){
-    ano = an;
-    director = dir;
-}
+Pelicula::Pelicula(int id, string tit, string tip, int dur, string gen, double rat, int an, string dir):Video{id,tit,tip,dur,gen,rat},ano{an},director{dir}{}
 
 int Pelicula::getAno(){
     return ano;
@@ -36,7 +33,12 @@ void Pelicula::calificarVideo(double nuevoRating){
 }
 
 void Pelicula::display(){
-	cout << "INFORMACION PELICULA" << endl;
+    cout << "INFORMACION VIDEO" << endl;
+	cout << "ID: " << Video::id;
+	cout << "Titulo: " << Video::titulo << endl;
+    cout << "Tipo: " << Video::tipo << endl;
+	cout << "Duracion " << Video::duracion << " minutos" << endl;
+	cout << "Genero: " << Video::genero << endl;
     cout << "Anio: " << ano << endl;
     cout << "Director" << director << endl;
 }

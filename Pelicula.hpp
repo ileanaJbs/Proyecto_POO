@@ -11,7 +11,7 @@ Jocelyn Ileana Balderas Sánchez
 
 using namespace std;
 
-class Pelicula 
+class Pelicula : public Video
 {
     private:
         int ano;

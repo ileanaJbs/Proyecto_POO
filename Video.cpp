@@ -46,10 +46,4 @@ double Video::getRating(){
 }
 
 void Video::display(){
-	cout << "INFORMACION VIDEO" << endl;
-	cout << "ID: " << id;
-	cout << "Titulo: " << titulo << endl;
-    cout << "Tipo: " << tipo << endl;
-	cout << "Duracion " << duracion << " minutos" << endl;
-	cout << "Genero: " << genero << endl;
 }
