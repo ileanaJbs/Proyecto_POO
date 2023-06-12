@@ -1,3 +1,7 @@
+/*
+Jocelyn Ileana Balderas Sánchez
+*/
+
 #ifndef CATALOGO_HPP
 #define CATALOGO_HPP
 
@@ -6,14 +10,10 @@
 using namespace std;
 
 class Catalogo
-{ //: public PlataformaStreaming  {
+{
 private:
     string categoria;
-    /*
-    protected:
-       std::string funcionActual {"Ninguna"};
-       Catalogo();
-    */
+
 public:
     Catalogo();
     Catalogo(string);
