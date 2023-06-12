@@ -1,4 +1,5 @@
-/* Andrea Doce Murillo
+/* 
+Andrea Doce Murillo
 Jocelyn Ileana Balderas Sánchez 
 */
 
@@ -8,16 +9,9 @@ Jocelyn Ileana Balderas Sánchez
 
 using namespace std;
 
+
+
 /*
-Serie::Serie() : Usuario(), title{""} numTemporadas{1} {}
-Serie::Serie(string tit, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
-
-string Serie::toString()
-{
-    return "Serie (" to_string(tit) + "," + cuenU + " ) ";
-}
-*/
-
 Serie::Serie(string ID, string title, string Genero)
 {
     _genero = Genero;
@@ -55,3 +49,4 @@ string Serie::getTitle()
 {
     return _nombre;
 }
+*/
