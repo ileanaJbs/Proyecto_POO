@@ -11,10 +11,6 @@ Video::Video(){
 	rating = 0;
 }
 
-Video::~Video(){
-
-}
-
 void Video::calificarVideo(double nuevoRating){
     double anterior;
     anterior = rating;

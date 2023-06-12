@@ -14,19 +14,12 @@ class Pelicula
 {
     private:
         int ano;
-        string estudio;
-        string nacionalidad;
         string director;
-        //personajes reparto;
 
     public:
         Pelicula();
         int getAno();
         void setAno(int);
-        string getEstudio();
-        void setEstudio(string);
-        string getNacionalidad();
-        void setNacionalidad(string);
         string getDirector();
         void setDirector(string);
 };

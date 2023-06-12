@@ -1,10 +1,14 @@
-// Andrea Doce Murillo
+/* Andrea Doce Murillo
+Jocelyn Ileana Balderas Sánchez 
+*/
+
 #include "Serie.hpp"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
+/*
 Serie::Serie() : Usuario(), title{""} numTemporadas{1} {}
 Serie::Serie(string tit, int cuenU) : Usuario(), apodoU{apodU}, cuentaU{cuenU} {}
 
@@ -12,16 +16,12 @@ string Serie::toString()
 {
     return "Serie (" to_string(tit) + "," + cuenU + " ) ";
 }
+*/
 
-#include "serie.h"
-
-#include <iostream>
-using namespace std;
-
-Serie::Serie(string ID, string Nombre, string Genero)
+Serie::Serie(string ID, string title, string Genero)
 {
     _genero = Genero;
-    _nombre = Nombre;
+    _nombre = title;
     _id = ID;
 }
 
@@ -51,7 +51,7 @@ bool Serie::operator==(string &s)
     }
 }
 
-string Serie::getnombre()
+string Serie::getTitle()
 {
     return _nombre;
 }
