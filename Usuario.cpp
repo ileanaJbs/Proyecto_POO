@@ -12,7 +12,7 @@ using namespace std;
 Usuario::Usuario(): idU{0}, nombreU{""}{}
 
 Usuario::Usuario(int idU, string nomU){
-	id = 0;
+	idU = 0;
 	nombreU = nomU;
 }
 
