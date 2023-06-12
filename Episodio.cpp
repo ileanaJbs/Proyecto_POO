@@ -19,14 +19,14 @@ Episodio::Episodio(int id, string tit, string tip, int dur, string gen, double r
 vector<string> Episodio::obtenerGeneros()
 {
     stringstream stream(getGenero());
-    vector<string> generos;
+    vector<string> genero;
     string primerGenero;
     while (stream.peek() != EOF)
     {
         getline(stream, primerGenero, ',');
-        generos.push_back(primerGenero);
+        genero.push_back(primerGenero);
     }
-    return generos;
+    return genero;
 }
 
 string Episodio::getNomEpisodio()

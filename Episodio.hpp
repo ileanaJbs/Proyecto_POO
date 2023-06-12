@@ -21,8 +21,8 @@ class Episodio: public Video
 
     public:
         //Episodio();
-        Episodio(int id, string tit, string tip, int dur, string gen, double rat, string nomEp, int temp,)
-        vector<string> obtenerGeneros();
+        Episodio(int id, string tit, string tip, int dur, string gen, double rat, string nomEp, int temp)
+        vector<string> obtenerGenero();
         int getTemporada();
         void setTemporada(int);
         string getNomEpisodio();
