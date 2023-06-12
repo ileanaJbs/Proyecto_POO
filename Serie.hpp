@@ -19,7 +19,7 @@ class Serie
     
     public:
         //Serie();
-        Serie(string, int)
+        Serie(string, int);
         string getTitle();
         void setTitle(string);
         int getNumTemporada();

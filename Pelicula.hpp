@@ -19,7 +19,7 @@ class Pelicula : public Video
 
     public:
         //Pelicula();
-        Pelicula(int id, string titulo, string tipo, int duracion, string genero, double rating, int ano, string director)
+        Pelicula(int id, string titulo, string tipo, int duracion, string genero, double rating, int ano, string director);
         int getAno();
         void setAno(int);
         string getDirector();

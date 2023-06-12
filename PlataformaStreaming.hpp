@@ -19,7 +19,8 @@ class PlataformaStreaming
     private:
     vector<Serie> Series;
     vector<Pelicula> Peliculas;
-    string Compania{""};
+    string Compania;
+    
     public:
     PlataformaStreaming();
     string getCompania();
