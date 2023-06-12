@@ -41,5 +41,15 @@ public:
   virtual void display();
   virtual void calificarVideo(double nuevoRating);
   bool operator>= (double rat);
+
+
+  /*private: 
+  string titulo;
+
+  public:
+  Video();
+  Video(string);
+  void MostrarInformacion();
+  */
 };
 #endif 

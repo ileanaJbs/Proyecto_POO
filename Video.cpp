@@ -4,8 +4,6 @@ Jocelyn Ileana Balderas Sánchez
 
 #include "Video.hpp"
 
-Video::Video(): id{0}, titulo{""}, tipo{""}, duracion{0}, genero{""}, rating{0}{}
-
 Video::Video(int id, string tit, string tip, int dur, string gen, double rat){
 	id = 0;
 	titulo = tit;
@@ -20,6 +18,7 @@ bool Video::operator>=(double rat){
     resultado = rating >= rat;
     return resultado;
 }
+
 
 void Video::reproducir(){
 	cout << "El video se esta reproduciendo con calidad estandar" << endl;
@@ -48,3 +47,11 @@ void Video::calificarVideo(double nuevoRating){
     anterior = rating;
     rating = (nuevoRating + anterior)/2 ;
 }
+
+
+/*Video::Video(){}
+Video::Video(string nombre) : titulo{nombre}{}
+void Video::MostrarInformacion(){
+	cout<<"el titulo es: "<<titulo<<endl;
+}
+*/

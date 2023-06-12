@@ -10,7 +10,7 @@ Jocelyn Ileana Balderas Sánchez
 using namespace std;
 
 Pelicula::Pelicula(int id, string tit, string tip, int dur, string gen, double rat, int an, string dir) : Video{id, tit, tip, dur, gen, rat}, ano{an}, director{dir} {}
-
+Pelicula:: Pelicula(){Video()}
 int Pelicula::getAno()
 {
     return ano;

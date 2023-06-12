@@ -13,5 +13,5 @@ Catalogo::Catalogo(string cat) : PlataformaStreaming(), categoria{cat} {}
 
 string Catalogo::toString()
 {
-    return "Cataogo (" to_string(cat) + " )";
+    return "Catalogo (" to_string(cat) + " )";
 }

@@ -606,6 +606,10 @@ void HBO()
     }
 };
 
+
+
+
+/*
 int main()
 {
     cout << "Bienvenido. Que plataforma de streaming deseas visitar?" << endl;
@@ -630,3 +634,4 @@ int main()
     }
     return 0;
 }
+*/
