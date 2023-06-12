@@ -3,6 +3,7 @@
 #include "PlataformaStreaming.hpp"
 #include <iostream>
 #include <string>
+#include<fstream>
 
 using namespace std;
 
@@ -188,7 +189,7 @@ void PlataformaStreaming::iniciar(){
 
 void PlataformaStreaming::leerArchivo(){
     ifstream archivo;
-    archivo.open("Peliculas.csv", "Series.csv");
+    archivo.open("Peliculas.csv");
     string linea;
     getline(archivo, linea);
     string id, nombre, duracion, genero, calificacion, fecha_estreno, nombreEp, idEp, temporada, linea_numEp, comilla_numEp, numEp;
