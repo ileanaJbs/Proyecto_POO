@@ -9,44 +9,17 @@ Jocelyn Ileana Balderas Sánchez
 
 using namespace std;
 
+//Serie::Serie(): title{""}, numTemporada{""}{}
 
-
-/*
-Serie::Serie(string ID, string title, string Genero)
-{
-    _genero = Genero;
-    _nombre = title;
-    _id = ID;
+Serie::Serie(string titl, int numTemp){
+	title = titl;
+	numTemporada = numTemp;
 }
 
-void Serie::ImprimirInfo()
-{
-    cout << "--------SERIE--------" << endl;
-    cout << "ID: " << _id << endl;
-    cout << "Nombre: " << _nombre << endl;
-    cout << "Genero: " << _genero << endl;
-    cout << endl;
+void Serie::setTitle(){
+    cout << "El título de la serie es" << title << endl;
 }
 
-void Serie::meterepisodio(Episodio epi)
-{
-    vecepisodios.push_back(epi);
+void Serie::setNumTemporada(){
+	cout << "El número de temporada es" << numTemporada << endl;;
 }
-
-bool Serie::operator==(string &s)
-{
-    if (_genero == s)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-}
-
-string Serie::getTitle()
-{
-    return _nombre;
-}
-*/

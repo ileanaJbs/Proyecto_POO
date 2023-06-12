@@ -14,15 +14,16 @@ class Serie
 {
     private:
         string title;
-        int numTemporadas;
+        int numTemporada;
         //episodio capitulo;
     
     public:
-        Serie();
+        //Serie();
+        Serie(string, int)
         string getTitle();
         void setTitle(string);
-        int getNumTemporadas();
-        void setNumTemporadas(int);
+        int getNumTemporada();
+        void setNumTemporada(int);
 
 };
 
