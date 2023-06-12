@@ -5,6 +5,7 @@ Jocelyn Ileana Balderas Sánchez
 #ifndef PELICULA_HPP
 #define PELICULA_HPP
 
+#include "Video.hpp"
 #include <iostream>
 #include <string>
 
@@ -17,11 +18,16 @@ class Pelicula
         string director;
 
     public:
-        Pelicula();
+        //Pelicula();
+        Pelicula(int id, string titulo, string tipo, int duracion, string genero, double rating, int ano, string director)
         int getAno();
         void setAno(int);
         string getDirector();
         void setDirector(string);
+
+        //virtuales
+        void display();
+        void calificarVideo(double nuevoRating);
 };
 
 #endif

@@ -8,11 +8,11 @@ Video::Video(): id{0}, titulo{""}, tipo{""}, duracion{0}, genero{""}, rating{0}{
 
 Video::Video(int id, string tit, string tip, int dur, string gen, double rat){
 	id = 0;
-	titulo = "";
-    tipo = "";
-	duracion = 0;
-	genero = "";
-	rating = 0;
+	titulo = tit;
+    tipo = tip;
+	duracion = dur;
+	genero = gen;
+	rating = rat;
 }
 
 void Video::calificarVideo(double nuevoRating){
@@ -45,7 +45,7 @@ double Video::getRating(){
 	rating = rat;
 }
 
-string Video::display(){
+void Video::display(){
 	cout << "INFORMACION VIDEO" << endl;
 	cout << "ID: " << id;
 	cout << "Titulo: " << titulo << endl;
